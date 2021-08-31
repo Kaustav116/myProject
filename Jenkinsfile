@@ -1,7 +1,7 @@
 pipeline{
 agent { label 'Windows'}
 tools{
-maven 'M3'
+maven 'Maven3'
 }
 stages{
 stage('Checkout'){
